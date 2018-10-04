@@ -284,6 +284,9 @@ div.desc {
 
 
   }
+  .inner {
+    display: none;
+  }
 
       
   }
