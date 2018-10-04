@@ -32,9 +32,10 @@ body {
   background-size: cover;
   flex-wrap: wrap;
   background-color: black;
-  
+  font-family: 'Open Sans', sans-serif;
 }
 nav { text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
 
 
 }
