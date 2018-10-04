@@ -273,6 +273,13 @@ div.desc {
 
 }
 @media screen and (max-width:900px) {
-  p.lead { display: none;}
+  p.lead { display: none;
+  }
+  h1 a{ 
+    font-size: 50%;
+    
+
+  }
+
       
   }
