@@ -208,7 +208,13 @@ body {
 
   .masthead { 
       margin-right: 30px;
-      display: inline-block}
+      display: inline-block; 
+    }
+
+  .active { display: none;
+
+
+  }
       
       body {
         height: 100%;
