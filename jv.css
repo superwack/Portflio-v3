@@ -59,6 +59,12 @@ body {
   color: white;
   text-align: center;
   text-shadow: 0 1px 1px rgba(0,0,0,.5);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+
+
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -204,14 +210,18 @@ body {
     background-color: #333;    
   }
 }
-@media screen and (max-width:900px) {
+@media screen and (min-width:375px) {
 
   .masthead { 
       margin-right: 25px;
       display: inline-block; 
+      font-size: 150%;
     }
+  nav {
+      display: block;
 
-
+   }
+   
       
       body {
         height: 100%;
@@ -221,8 +231,39 @@ body {
         flex-wrap: wrap;
         background-color: black;
         font-family: 'Open Sans', sans-serif;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+    
+    
       }    
 
 
       
   }
+
+@media screen and  (max-width:374px) { 
+
+  .mastfoot, 
+  p, 
+  h1 { text-align: center;
+
+  }
+
+  .masthead { margin-right: 0px;}
+
+  body {     margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+
+
+  }
+
+
+
+
+
+
+}
