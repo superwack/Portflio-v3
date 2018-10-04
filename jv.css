@@ -207,7 +207,8 @@ body {
 @media screen and (max-width:900px) {
 
   .masthead { 
-      margin-right: 30px;}
+      margin-right: 30px;
+      display: inline-block}
       
       body {
         height: 100%;
