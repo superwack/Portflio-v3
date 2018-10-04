@@ -12,3 +12,7 @@ margin-right: auto ;
 
 
 }
+
+@media screen and (max-width:900px) {
+    background-color: white;
+  
