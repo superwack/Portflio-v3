@@ -207,14 +207,11 @@ body {
 @media screen and (max-width:900px) {
 
   .masthead { 
-      margin-right: 30px;
+      margin-right: 25px;
       display: inline-block; 
     }
 
-  .active { display: none;
 
-
-  }
       
       body {
         height: 100%;
