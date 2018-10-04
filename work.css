@@ -277,7 +277,11 @@ div.desc {
   }
   h1 a{ 
     font-size: 50%;
-    
+
+
+  }
+  br { display: none;
+
 
   }
 
