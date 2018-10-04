@@ -288,5 +288,11 @@ div.desc {
     display: none;
   }
 
+  .masthead
+  .mastfoot
+  .cover-container {
+    display: block;
+  }
+
       
   }
