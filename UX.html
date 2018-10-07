@@ -3,9 +3,11 @@
   <head>
 
 
+
       <style>
           @import url('https://fonts.googleapis.com/css?family=Open+Sans|Oswald:600');
-          </style>
+      </style>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,7 +16,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>jv.work</title>
+    <title>jv.photo</title>
     <link rel="icon" href="smiley_trans.png">
     <!-- Bootstrap core CSS -->
     <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
@@ -22,10 +24,10 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
+    <!-- Custom styles for this site -->
     <link href="work.css" rel="stylesheet">
-
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <link rel="stylesheet" href="css/blueimp-gallery.min.css">
+    <!-- Just for debugging purposes. -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
 
@@ -67,7 +69,45 @@
 
     <div class = "headings">
       <h1>UX/Web</h1>
-      <p> Updating soon! Here's my <a href="http://github.com/superwack"> Github </a>for a broad overview. </p>
+      <p> Here's my <a href="http://github.com/superwack"> Github </a> to see code! </p>
+
+      <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+        <div class="slides"></div>
+        <h3 class="title"></h3>
+        <a class="prev">‹</a>
+        <a class="next">›</a>
+        <a class="close">×</a>
+        <a class="play-pause"></a>
+        
+    </div>
+    <div id="blueimp-gallery-carousel" class="blueimp-gallery blueimp-gallery-carousel">
+      <div class="slides"></div>
+      <h3 class="title"></h3>
+      <a class="prev">‹</a>
+      <a class="next">›</a>
+      <a class="play-pause"></a>
+      
+    </div>
+      <div id="links">
+        <a href="imgs/UX/UX1.png" title="NOOSE Mobile App Prototype">
+           
+        </a>
+        <a href="imgs/UX/UX2.png" title="VacciNation">
+          
+      </a>
+      <a href="imgs/UX/UX3.png" title="VacciNation">
+      
+    </a>
+    <a href="imgs/UX/UX4.png" title="NJ Future Mobile App Prototype">
+      
+    </a>
+    <a href="imgs/UX/UX5.png" title="NJ Future Wireframe">
+      
+    </a>
+    <a href="imgs/UX/UX6.png" title="Other Projects">
+    
+    
+    </div>
       <div class="clearfix"></div>
 
           <div class="mastfoot">
@@ -92,5 +132,15 @@
     <script src="../../dist/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-  </body>
+    <script src="js/blueimp-gallery.min.js"></script>
+    <script>
+      blueimp.Gallery(
+          document.getElementById('links').getElementsByTagName('a'),
+          {
+              container: '#blueimp-gallery-carousel',
+              carousel: true
+          }
+      );
+      </script>
+</body>
 </html>
